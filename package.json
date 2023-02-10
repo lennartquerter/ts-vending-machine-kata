@@ -8,6 +8,7 @@
     "serve": "",
     "code:reset": "rm -rf ./src && mkdir ./src && cp -r ./support/code_versions/000_src_setup/ ./src/",
     "code:step-1": "rm -rf ./src && mkdir ./src && cp -r ./support/code_versions/001_src_step-1/ ./src/",
+    "code:step-2": "rm -rf ./src && mkdir ./src && cp -r ./support/code_versions/002_src_step-2/ ./src/",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
     "lint:check": "eslint \"{src,test}/**/*.ts\"",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",

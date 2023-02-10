@@ -1,14 +1,14 @@
 ## Step 1: Listing products
 
-What should the application do?
+_learning: create a test before implementing any functionality_
 
-We want to build an application where we can insert money, and get out a drink or snack.
-so... let's build this iterativly!
+How do we know what's in the vending machine?! I wanna see the cool stuff! Let's implement functionality
+to view a list of 3 items that are available: 'chocolate', 'chips' and 'yfood'.
+
 
 1. Write the test first!
 
 vendingMachine.spec.ts
-
 ```typescript
 describe('vendingMachine', () => {
     const sut = new VendingMachine()
@@ -32,7 +32,7 @@ describe('vendingMachine', () => {
 
 ![failing test](../img/1_fail.png)
 
-3. implement the method
+3. Implement the method
 
 vendingMachine.ts
 ```typescript
@@ -44,8 +44,7 @@ export class VendingMachine {
 ```
 
 
-4. pass the test
-
+4. See the test pass
 
 ![success test](../img/1_success.png)
 
