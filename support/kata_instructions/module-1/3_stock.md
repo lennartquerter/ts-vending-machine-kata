@@ -80,4 +80,4 @@ export class VendingMachine {
 
 ## Onwards!
 
-[Continue to step 4](./step-4.md)
+[Continue to step 4](./4_purchase.md)
