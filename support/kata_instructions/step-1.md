@@ -48,3 +48,6 @@ export class VendingMachine {
 
 ![success test](../img/1_success.png)
 
+
+
+[Continue with step 2](./step-2.md)
