@@ -78,7 +78,5 @@ export class VendingMachine {
 ![success test](../img/2_success.png)
 
 
-
-
 [Back to step 1](./step-1.md)
 [Continue with step 3](./step-3.md)
