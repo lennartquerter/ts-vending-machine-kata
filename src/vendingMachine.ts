@@ -5,15 +5,18 @@ export class VendingMachine {
         return [
             {
                 name: 'chocolate',
-                priceInCent: 100
+                priceInCent: 100,
+                unitsInStock: 10,
             },
             {
                 name: 'chips',
-                priceInCent: 120
+                priceInCent: 120,
+                unitsInStock: 10,
             },
             {
                 name: 'yfood',
-                priceInCent: 399
+                priceInCent: 399,
+                unitsInStock: 10,
             },
 
         ]

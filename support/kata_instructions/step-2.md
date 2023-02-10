@@ -6,7 +6,7 @@ _learning: create an interface for the return type of a function_
 
 It's great we now have the products, but... wait? where are the prices? We are here to make money! Time to add some prices.
 
-1. Write the test first!
+### Write the test first!
 
 vendingMachine.spec.ts
 
@@ -29,11 +29,11 @@ describe('vendingMachine', () => {
 });
 ```
 
-2. See the test fail!
+### See the test fail!
 
 ![failing test](../img/2_fail.png)
 
-3. Implement the method!
+### Implement the method!
 
 As we are not returning a simple array of products anymore, we introduce the interface 'Product' to our system
 
@@ -72,7 +72,7 @@ export class VendingMachine {
 }
 ```
 
-4. See the test pass
+### See the test pass
 
 
 ![success test](../img/2_success.png)

@@ -6,7 +6,7 @@ How do we know what's in the vending machine?! I wanna see the cool stuff! Let's
 to view a list of 3 items that are available: 'chocolate', 'chips' and 'yfood'.
 
 
-1. Write the test first!
+### Write the test first!
 
 vendingMachine.spec.ts
 ```typescript
@@ -28,11 +28,11 @@ describe('vendingMachine', () => {
 });
 ```
 
-2. See the test fail!
+### See the test fail!
 
 ![failing test](../img/1_fail.png)
 
-3. Implement the method
+### Implement the method
 
 vendingMachine.ts
 ```typescript
@@ -44,7 +44,7 @@ export class VendingMachine {
 ```
 
 
-4. See the test pass
+### See the test pass
 
 ![success test](../img/1_success.png)
 
