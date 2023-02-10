@@ -1,0 +1,59 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "eslint:recommended"
+    ],
+    "plugins": [
+        "@typescript-eslint/eslint-plugin",
+        "import",
+        "prettier"
+    ],
+    "rules": {
+        "import/order": [
+            "error",
+            {
+                "groups": [
+                    [
+                        "external",
+                        "builtin"
+                    ],
+                    "internal",
+                    "parent",
+                    [
+                        "sibling",
+                        "index"
+                    ]
+                ],
+                "newlines-between": "always",
+                "pathGroups": [
+                    {
+                        "pattern": "@freighthub/**",
+                        "group": "external",
+                        "position": "after"
+                    },
+                    {
+                        "pattern": "@forto-dev/**",
+                        "group": "external",
+                        "position": "after"
+                    }
+                ],
+                "pathGroupsExcludedImportTypes": [
+                    ""
+                ]
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "no-cond-assign": [
+            "error",
+            "always"
+        ],
+        "no-extra-semi": "off",
+        "no-undef": "off",
+        "no-empty": "warn",
+        "no-unused-vars": "off",
+        "for-direction": "off"
+    }
+}
