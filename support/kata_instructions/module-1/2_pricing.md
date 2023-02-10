@@ -31,7 +31,7 @@ describe('vendingMachine', () => {
 
 ### See the test fail!
 
-![failing test](../img/2_fail.png)
+![failing test](../../img/2_fail.png)
 
 ### Implement the method!
 
@@ -74,9 +74,8 @@ export class VendingMachine {
 
 ### See the test pass
 
+![success test](../../img/2_success.png)
 
-![success test](../img/2_success.png)
+## Onwards!
 
-
-[Back to step 1](./step-1.md)
-[Continue with step 3](./step-3.md)
+[Continue with step 3](3_stock.md)

@@ -30,7 +30,7 @@ describe('vendingMachine', () => {
 
 ### See the test fail!
 
-![failing test](../img/1_fail.png)
+![failing test](../../img/1_fail.png)
 
 ### Implement the method
 
@@ -46,8 +46,9 @@ export class VendingMachine {
 
 ### See the test pass
 
-![success test](../img/1_success.png)
+![success test](../../img/1_success.png)
 
 
+## Onwards
 
-[Continue with step 2](./step-2.md)
+[Continue with step 2](2_pricing.md)

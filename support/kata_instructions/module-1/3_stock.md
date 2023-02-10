@@ -31,7 +31,7 @@ describe('vendingMachine', () => {
 
 ### See the test Fail
 
-![failing test](../img/3_fail.png)
+![failing test](../../img/3_fail.png)
 
 ### Implement the attributes
 
@@ -76,7 +76,8 @@ export class VendingMachine {
 
 ### See the test Pass
 
-![success test](../img/3_success.png)
+![success test](../../img/3_success.png)
 
+## Onwards!
 
 [Continue to step 4](./step-4.md)
